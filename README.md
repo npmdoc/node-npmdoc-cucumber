@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/cucumber.png?downloads=true)](https://www.npmjs.com/package/cucumber)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-cucumber/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-cucumber_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-cucumber/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-cucumber/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-cucumber_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-cucumber/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-cucumber/build/screenCapture.npmPackageListing.svg)
 
