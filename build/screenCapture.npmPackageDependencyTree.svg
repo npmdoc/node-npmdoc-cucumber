@@ -1,48 +1,70 @@
-<svg height="718" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="718" fill="#555" width="720"></rect>
+<svg height="1070" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1070" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">└─┬ cucumber@1.3.2 </tspan>
-<tspan x="10" y="42">  ├─┬ camel-case@3.0.0 </tspan>
-<tspan x="10" y="58">  │ ├─┬ no-case@2.3.1 </tspan>
-<tspan x="10" y="74">  │ │ └── lower-case@1.1.4 </tspan>
-<tspan x="10" y="90">  │ └── upper-case@1.1.3 </tspan>
-<tspan x="10" y="106">  ├─┬ cli-table@0.3.1 </tspan>
-<tspan x="10" y="122">  │ └── colors@1.0.3 </tspan>
-<tspan x="10" y="138">  ├── co@4.6.0 </tspan>
-<tspan x="10" y="154">  ├── colors@1.1.2 </tspan>
-<tspan x="10" y="170">  ├─┬ commander@2.9.0 </tspan>
-<tspan x="10" y="186">  │ └── graceful-readlink@1.0.1 </tspan>
-<tspan x="10" y="202">  ├─┬ duration@0.2.0 </tspan>
-<tspan x="10" y="218">  │ ├── d@0.1.1 </tspan>
-<tspan x="10" y="234">  │ └─┬ es5-ext@0.10.15 </tspan>
-<tspan x="10" y="250">  │   ├─┬ es6-iterator@2.0.1 </tspan>
-<tspan x="10" y="266">  │   │ └── d@1.0.0 </tspan>
-<tspan x="10" y="282">  │   └─┬ es6-symbol@3.1.1 </tspan>
-<tspan x="10" y="298">  │     └── d@1.0.0 </tspan>
-<tspan x="10" y="314">  ├─┬ figures@1.7.0 </tspan>
-<tspan x="10" y="330">  │ ├── escape-string-regexp@1.0.5 </tspan>
-<tspan x="10" y="346">  │ └── object-assign@4.1.1 </tspan>
-<tspan x="10" y="362">  ├── gherkin@4.1.1 </tspan>
-<tspan x="10" y="378">  ├─┬ glob@7.1.1 </tspan>
-<tspan x="10" y="394">  │ ├── fs.realpath@1.0.0 </tspan>
-<tspan x="10" y="410">  │ ├─┬ inflight@1.0.6 </tspan>
-<tspan x="10" y="426">  │ │ └── wrappy@1.0.2 </tspan>
-<tspan x="10" y="442">  │ ├── inherits@2.0.3 </tspan>
-<tspan x="10" y="458">  │ ├─┬ minimatch@3.0.3 </tspan>
-<tspan x="10" y="474">  │ │ └─┬ brace-expansion@1.1.6 </tspan>
-<tspan x="10" y="490">  │ │   ├── balanced-match@0.4.2 </tspan>
-<tspan x="10" y="506">  │ │   └── concat-map@0.0.1 </tspan>
-<tspan x="10" y="522">  │ ├── once@1.4.0 </tspan>
-<tspan x="10" y="538">  │ └── path-is-absolute@1.0.1 </tspan>
-<tspan x="10" y="554">  ├── is-generator@1.0.3 </tspan>
-<tspan x="10" y="570">  ├── lodash@4.17.4 </tspan>
-<tspan x="10" y="586">  ├── stack-chain@1.3.7 </tspan>
-<tspan x="10" y="602">  └─┬ stacktrace-js@1.3.1 </tspan>
-<tspan x="10" y="618">    ├─┬ error-stack-parser@1.3.6 </tspan>
-<tspan x="10" y="634">    │ └── stackframe@0.3.1 </tspan>
-<tspan x="10" y="650">    ├─┬ stack-generator@1.1.0 </tspan>
-<tspan x="10" y="666">    │ └── stackframe@1.0.2 </tspan>
-<tspan x="10" y="682">    └─┬ stacktrace-gps@2.4.4 </tspan>
-<tspan x="10" y="698">      └── source-map@0.5.6</tspan>
+<tspan x="10" y="26">27 megabytes installed</tspan>
+<tspan x="10" y="42"></tspan>
+<tspan x="10" y="58">node_modules</tspan>
+<tspan x="10" y="74">└─┬ cucumber@2.0.0-rc.9 </tspan>
+<tspan x="10" y="90">  ├─┬ assertion-error-formatter@2.0.0 </tspan>
+<tspan x="10" y="106">  │ ├── diff@3.2.0 </tspan>
+<tspan x="10" y="122">  │ ├── pad-right@0.2.2 </tspan>
+<tspan x="10" y="138">  │ └── repeat-string@1.6.1 </tspan>
+<tspan x="10" y="154">  ├─┬ babel-runtime@6.23.0 </tspan>
+<tspan x="10" y="170">  │ ├── core-js@2.4.1 </tspan>
+<tspan x="10" y="186">  │ └── regenerator-runtime@0.10.3 </tspan>
+<tspan x="10" y="202">  ├── bluebird@3.5.0 </tspan>
+<tspan x="10" y="218">  ├─┬ cli-table@0.3.1 </tspan>
+<tspan x="10" y="234">  │ └── colors@1.0.3 </tspan>
+<tspan x="10" y="250">  ├── colors@1.1.2 </tspan>
+<tspan x="10" y="266">  ├─┬ commander@2.9.0 </tspan>
+<tspan x="10" y="282">  │ └── graceful-readlink@1.0.1 </tspan>
+<tspan x="10" y="298">  ├── cucumber-expressions@3.0.0 </tspan>
+<tspan x="10" y="314">  ├── cucumber-tag-expressions@1.0.0 </tspan>
+<tspan x="10" y="330">  ├─┬ duration@0.2.0 </tspan>
+<tspan x="10" y="346">  │ ├── d@0.1.1 </tspan>
+<tspan x="10" y="362">  │ └─┬ es5-ext@0.10.15 </tspan>
+<tspan x="10" y="378">  │   ├─┬ es6-iterator@2.0.1 </tspan>
+<tspan x="10" y="394">  │   │ └── d@1.0.0 </tspan>
+<tspan x="10" y="410">  │   └─┬ es6-symbol@3.1.1 </tspan>
+<tspan x="10" y="426">  │     └── d@1.0.0 </tspan>
+<tspan x="10" y="442">  ├─┬ figures@2.0.0 </tspan>
+<tspan x="10" y="458">  │ └── escape-string-regexp@1.0.5 </tspan>
+<tspan x="10" y="474">  ├── gherkin@4.1.1 </tspan>
+<tspan x="10" y="490">  ├─┬ glob@7.1.1 </tspan>
+<tspan x="10" y="506">  │ ├── fs.realpath@1.0.0 </tspan>
+<tspan x="10" y="522">  │ ├─┬ inflight@1.0.6 </tspan>
+<tspan x="10" y="538">  │ │ └── wrappy@1.0.2 </tspan>
+<tspan x="10" y="554">  │ ├── inherits@2.0.3 </tspan>
+<tspan x="10" y="570">  │ ├─┬ minimatch@3.0.3 </tspan>
+<tspan x="10" y="586">  │ │ └─┬ brace-expansion@1.1.7 </tspan>
+<tspan x="10" y="602">  │ │   ├── balanced-match@0.4.2 </tspan>
+<tspan x="10" y="618">  │ │   └── concat-map@0.0.1 </tspan>
+<tspan x="10" y="634">  │ ├── once@1.4.0 </tspan>
+<tspan x="10" y="650">  │ └── path-is-absolute@1.0.1 </tspan>
+<tspan x="10" y="666">  ├── indent-string@3.1.0 </tspan>
+<tspan x="10" y="682">  ├── is-generator@1.0.3 </tspan>
+<tspan x="10" y="698">  ├── is-stream@1.1.0 </tspan>
+<tspan x="10" y="714">  ├── lodash@4.17.4 </tspan>
+<tspan x="10" y="730">  ├─┬ mz@2.6.0 </tspan>
+<tspan x="10" y="746">  │ ├── any-promise@1.3.0 </tspan>
+<tspan x="10" y="762">  │ ├── object-assign@4.1.1 </tspan>
+<tspan x="10" y="778">  │ └─┬ thenify-all@1.6.0 </tspan>
+<tspan x="10" y="794">  │   └── thenify@3.2.1 </tspan>
+<tspan x="10" y="810">  ├── stack-chain@1.3.7 </tspan>
+<tspan x="10" y="826">  ├─┬ stacktrace-js@1.3.1 </tspan>
+<tspan x="10" y="842">  │ ├─┬ error-stack-parser@1.3.6 </tspan>
+<tspan x="10" y="858">  │ │ └── stackframe@0.3.1 </tspan>
+<tspan x="10" y="874">  │ ├─┬ stack-generator@1.1.0 </tspan>
+<tspan x="10" y="890">  │ │ └── stackframe@1.0.2 </tspan>
+<tspan x="10" y="906">  │ └─┬ stacktrace-gps@2.4.4 </tspan>
+<tspan x="10" y="922">  │   └── source-map@0.5.6 </tspan>
+<tspan x="10" y="938">  ├── string-argv@0.0.2 </tspan>
+<tspan x="10" y="954">  ├─┬ upper-case-first@1.1.2 </tspan>
+<tspan x="10" y="970">  │ └── upper-case@1.1.3 </tspan>
+<tspan x="10" y="986">  ├── util-arity@1.1.0 </tspan>
+<tspan x="10" y="1002">  └─┬ verror@1.9.0 </tspan>
+<tspan x="10" y="1018">    ├── assert-plus@1.0.0 </tspan>
+<tspan x="10" y="1034">    ├── core-util-is@1.0.2 </tspan>
+<tspan x="10" y="1050">    └── extsprintf@1.3.0</tspan>
 </text>
 </svg>
