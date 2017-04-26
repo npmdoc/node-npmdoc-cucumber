@@ -1,6 +1,6 @@
 # npmdoc-cucumber
 
-#### api documentation for  [cucumber (v1.3.2)](http://github.com/cucumber/cucumber-js)  [![npm package](https://img.shields.io/npm/v/npmdoc-cucumber.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cucumber) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cucumber.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cucumber)
+#### basic api documentation for  [cucumber (v1.3.2)](http://github.com/cucumber/cucumber-js)  [![npm package](https://img.shields.io/npm/v/npmdoc-cucumber.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cucumber) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cucumber.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cucumber)
 
 #### The official JavaScript implementation of Cucumber.
 
