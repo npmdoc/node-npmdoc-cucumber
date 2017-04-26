@@ -1570,7 +1570,22 @@ collect, [])
   };
   return self;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+
+
+
+#!/usr/bin/env node
+var Cucumber = require(&#x27;../lib/cucumber&#x27;);
+var cli = Cucumber.<span class="apidocCodeKeywordSpan">Cli</span>(process.argv);
+cli.run(function (succeeded) {
+var code = succeeded ? 0 : 1;
+
+function exitNow() {
+  process.exit(code);
+}
+...</pre></li>
     </ul>
 
 
@@ -1801,21 +1816,21 @@ featureSources.forEach(function (featureSource) {
   return self;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  var configuration = Cucumber.Cli.Configuration(program.opts(), program.args);
-  return configuration;
+
+
+
+
+
+function Cucumber(featureSource, supportCodeInitializer, options) {
+  var configuration = Cucumber.VolatileConfiguration(featureSource, supportCodeInitializer, options);
+  var runtime       = Cucumber.<span class="apidocCodeKeywordSpan">Runtime</span>(configuration);
+  return runtime;
 }
 
-var self = {
-  run: function run(callback) {
-    var configuration = getConfiguration();
-    var runtime    = Cucumber.<span class="apidocCodeKeywordSpan">Runtime</span>(configuration);
-    var formatters = configuration.getFormatters();
-    formatters.forEach(function (formatter) {
-      runtime.attachListener(formatter);
-    });
-    runtime.start(callback);
-  }
-};
+Cucumber.Api                   = require(&#x27;./cucumber/api&#x27;);
+Cucumber.Ast                   = require(&#x27;./cucumber/ast&#x27;);
+Cucumber.Cli                   = require(&#x27;./cucumber/cli&#x27;);
+Cucumber.Debug                 = require(&#x27;./cucumber/debug&#x27;); // Untested namespace
 ...</pre></li>
     </ul>
 
@@ -2042,12 +2057,12 @@ TagGroupParser.TAG_SEPARATOR = &#x27;,&#x27;;
   return self;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-    &#x22;lib/&#x22;,
-    &#x22;release/&#x22;
-  ]
-}
 
-},{}],&#x22;cucumber&#x22;:[function(require,module,exports){
+
+
+
+
+
 function Cucumber(featureSource, supportCodeInitializer, options) {
   var configuration = Cucumber.<span class="apidocCodeKeywordSpan">VolatileConfiguration</span>(featureSource, supportCodeInitializer
 , options);
@@ -3160,7 +3175,22 @@ collect, [])
   };
   return self;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+
+
+
+#!/usr/bin/env node
+var Cucumber = require(&#x27;../lib/cucumber&#x27;);
+var cli = Cucumber.<span class="apidocCodeKeywordSpan">Cli</span>(process.argv);
+cli.run(function (succeeded) {
+var code = succeeded ? 0 : 1;
+
+function exitNow() {
+  process.exit(code);
+}
+...</pre></li>
     </ul>
 
 
@@ -4964,21 +4994,21 @@ return formatters;
   return self;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  var configuration = Cucumber.Cli.Configuration(program.opts(), program.args);
-  return configuration;
+
+
+
+
+
+function Cucumber(featureSource, supportCodeInitializer, options) {
+  var configuration = Cucumber.VolatileConfiguration(featureSource, supportCodeInitializer, options);
+  var runtime       = Cucumber.<span class="apidocCodeKeywordSpan">Runtime</span>(configuration);
+  return runtime;
 }
 
-var self = {
-  run: function run(callback) {
-    var configuration = getConfiguration();
-    var runtime    = Cucumber.<span class="apidocCodeKeywordSpan">Runtime</span>(configuration);
-    var formatters = configuration.getFormatters();
-    formatters.forEach(function (formatter) {
-      runtime.attachListener(formatter);
-    });
-    runtime.start(callback);
-  }
-};
+Cucumber.Api                   = require(&#x27;./cucumber/api&#x27;);
+Cucumber.Ast                   = require(&#x27;./cucumber/ast&#x27;);
+Cucumber.Cli                   = require(&#x27;./cucumber/cli&#x27;);
+Cucumber.Debug                 = require(&#x27;./cucumber/debug&#x27;); // Untested namespace
 ...</pre></li>
     </ul>
 
@@ -6773,21 +6803,21 @@ broadcastEvent: function broadcastEvent(event, callback) {
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
+
+
+
+
+#!/usr/bin/env node
+var Cucumber = require(&#x27;../lib/cucumber&#x27;);
+var cli = Cucumber.Cli(process.argv);
+cli.<span class="apidocCodeKeywordSpan">run</span>(function (succeeded) {
+var code = succeeded ? 0 : 1;
+
+function exitNow() {
+  process.exit(code);
 }
 
-var self = {
-  hear: function hear(event, defaultTimeout, callback) {
-    if (self.hasHandlerForEvent(event)) {
-      var handler = self.getHandlerForEvent(event);
-      var timeout = self.getTimeout() || defaultTimeout;
-      Cucumber.Util.<span class="apidocCodeKeywordSpan">run</span>(handler, null, [event.getPayload()], timeout, function(error) {
-        error = self.prependLocationToError(error);
-        callback(error);
-      });
-    } else {
-      callback();
-    }
-  },
+if (process.stdout.write(&#x27;&#x27;)) {
 ...</pre></li>
     </ul>
 
@@ -7211,7 +7241,22 @@ collect, [])
   };
   return self;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+
+
+
+#!/usr/bin/env node
+var Cucumber = require(&#x27;../lib/cucumber&#x27;);
+var cli = Cucumber.<span class="apidocCodeKeywordSpan">Cli</span>(process.argv);
+cli.run(function (succeeded) {
+var code = succeeded ? 0 : 1;
+
+function exitNow() {
+  process.exit(code);
+}
+...</pre></li>
     </ul>
 
 
@@ -7442,21 +7487,21 @@ featureSources.forEach(function (featureSource) {
   return self;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  var configuration = Cucumber.Cli.Configuration(program.opts(), program.args);
-  return configuration;
+
+
+
+
+
+function Cucumber(featureSource, supportCodeInitializer, options) {
+  var configuration = Cucumber.VolatileConfiguration(featureSource, supportCodeInitializer, options);
+  var runtime       = Cucumber.<span class="apidocCodeKeywordSpan">Runtime</span>(configuration);
+  return runtime;
 }
 
-var self = {
-  run: function run(callback) {
-    var configuration = getConfiguration();
-    var runtime    = Cucumber.<span class="apidocCodeKeywordSpan">Runtime</span>(configuration);
-    var formatters = configuration.getFormatters();
-    formatters.forEach(function (formatter) {
-      runtime.attachListener(formatter);
-    });
-    runtime.start(callback);
-  }
-};
+Cucumber.Api                   = require(&#x27;./cucumber/api&#x27;);
+Cucumber.Ast                   = require(&#x27;./cucumber/ast&#x27;);
+Cucumber.Cli                   = require(&#x27;./cucumber/cli&#x27;);
+Cucumber.Debug                 = require(&#x27;./cucumber/debug&#x27;); // Untested namespace
 ...</pre></li>
     </ul>
 
@@ -7568,12 +7613,12 @@ TagGroupParser.TAG_SEPARATOR = &#x27;,&#x27;;
   return self;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-    &#x22;lib/&#x22;,
-    &#x22;release/&#x22;
-  ]
-}
 
-},{}],&#x22;cucumber&#x22;:[function(require,module,exports){
+
+
+
+
+
 function Cucumber(featureSource, supportCodeInitializer, options) {
   var configuration = Cucumber.<span class="apidocCodeKeywordSpan">VolatileConfiguration</span>(featureSource, supportCodeInitializer
 , options);
